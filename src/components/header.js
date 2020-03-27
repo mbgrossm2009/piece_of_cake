@@ -1,42 +1,26 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
+import { Navbar, Nav } from "react-bootstrap"
+import { Link } from 'gatsby'
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
+
+const Header = () => (
+  <div>
+  
+  <Navbar bg="" expand="lg">
+    <Navbar.Brand href="#home">Piece of Cake </Navbar.Brand>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Collapse id="basic-navbar-nav">
+      <Nav className="mr-auto">
+        <Nav.Link> <Link to='/aboutus'>About Us</Link> </Nav.Link>
+        <Nav.Link><Link to='/order'>Order Online</Link></Nav.Link>
+        <Nav.Link><Link to='/signin'>Sign in/Register</Link></Nav.Link>
+        <Nav.Link><Link to='/guestbook'>Guest Book</Link></Nav.Link>
+      </Nav>
+      
+    </Navbar.Collapse>
+  </Navbar>
+  </div>
+
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header

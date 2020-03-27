@@ -1,0 +1,17 @@
+import React from "react"
+import Layout from "../components/layout"
+import styles from "../styles/index.scss"
+
+
+
+
+const SignIn = () => (
+ 
+ <div>
+    <Layout>
+             Sign in/ Register Page
+    </Layout>
+ </div>
+)
+
+export default SignIn
