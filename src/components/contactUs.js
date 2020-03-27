@@ -6,10 +6,11 @@ import { Form, Header, Footer, Row, Col } from "react-bootstrap"
 const ContactUs = (props) => {
     return (
         <div>
-            <h1> Contact Us </h1>
             <div className="row contactUs">
 
-                <div className="col-lg-8 col-md-8 col-sm-8 contactForm">
+
+                <div className="col-lg-6 col-md-6 col-sm-6 contactForm">
+                <h2>Contact Us</h2>
                     <Form.Group>
                         <Form.Row>
                             <Form.Label column="sm" lg={2}> First Name </Form.Label>
@@ -35,12 +36,13 @@ const ContactUs = (props) => {
                         <Form.Row>
                             <Form.Label column="sm" lg={2}> Message </Form.Label>
                             <Col>
-                                <Form.Control size="sm" as="textarea" placeholder="Message" />
+                                <Form.Control size="sm" as="textarea" rows="10" placeholder="Message" />
                             </Col>
                         </Form.Row>
                     </Form.Group>
                 </div>
-                <img className="col-lg-4" src={test} />
+               
+                <img className="col-lg-6 col-md-6 col-sm-6" src={test} />
             </div>
 
 

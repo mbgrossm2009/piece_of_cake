@@ -10,14 +10,15 @@ import ContactUs from "../components/contactUs"
 
 const IndexPage = (props) => (
  
- <div className = "container">
+
     <Layout>
        <h1 id = "siteTitle">Piece of Cake</h1>
+
     <Carousel/>
     <MissionStatement/>
     <ContactUs/>
+    
     </Layout>
- </div>
 )
 
 export default IndexPage
