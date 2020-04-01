@@ -16,33 +16,51 @@ import test from "../images/test.png"
 
 
 const cakesCarousel = () => (
+    <div className>
+        <h3>Cakes</h3>
 
+        <Carousel>
+            <Carousel.Item>
+                <img className="cakeCarousel img-fluid col-lg-3 col-md-3 col-sm-3" src={four} />
+            </Carousel.Item>
+            <Carousel.Item>
+                <img className="cakeCarousel img-fluid col-lg-3 col-md-3 col-sm-3" src={five} />
+            </Carousel.Item>
+            <Carousel.Item>
+                <img className="cakeCarousel img-fluid col-lg-3 col-md-3 col-sm-3" src={six} />
+            </Carousel.Item>
+        </Carousel>
 
-    <Carousel>
-        <Carousel.Item>
-            <img className="cakeCarousel img-fluid col-lg-3 col-md-3 col-sm-3" src={four} />
-        </Carousel.Item>
-        <Carousel.Item>
-            <img className="cakeCarousel img-fluid col-lg-3 col-md-3 col-sm-3" src={five} />
-        </Carousel.Item>
-        <Carousel.Item>
-            <img className="cakeCarousel img-fluid col-lg-3 col-md-3 col-sm-3" src={six} />
-        </Carousel.Item>
-    </Carousel>
+        <h3>Cupcakes</h3>
+        <Carousel>
+
+            <Carousel.Item>
+                <img className="cakeCarousel img-fluid col-lg-3 col-md-3 col-sm-3" src={four} />
+            </Carousel.Item>
+            <Carousel.Item>
+                <img className="cakeCarousel img-fluid col-lg-3 col-md-3 col-sm-3" src={five} />
+            </Carousel.Item>
+            <Carousel.Item>
+                <img className="cakeCarousel img-fluid col-lg-3 col-md-3 col-sm-3" src={six} />
+            </Carousel.Item>
+        </Carousel>
+        <h3>Family Favorites</h3>
+
+        <Carousel>
+
+            <Carousel.Item>
+                <img className="cakeCarousel img-fluid col-lg-3 col-md-3 col-sm-3" src={four} />
+            </Carousel.Item>
+            <Carousel.Item>
+                <img className="cakeCarousel img-fluid col-lg-3 col-md-3 col-sm-3" src={five} />
+            </Carousel.Item>
+            <Carousel.Item>
+                <img className="cakeCarousel img-fluid col-lg-3 col-md-3 col-sm-3" src={six} />
+            </Carousel.Item>
+        </Carousel>
+
+    </div>
 
 )
 
 export default cakesCarousel
-
-
-// export const query = graphql`
-//     query {
-//         slide01ql: file(relativePath: { eq: "slide01.jpg"}) {
-//             childImageSharp {
-//                 fluid(maxWidth:1200){
-//                     ...GatsbyImageSharpFluid
-//                 }
-//             }
-//         }
-//     }
-// `
