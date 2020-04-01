@@ -36,15 +36,3 @@ const mainCarousel = () => (
 
 export default mainCarousel
 
-
-export const query = graphql`
-    query {
-        slide01ql: file(relativePath: { eq: "slide01.jpg"}) {
-            childImageSharp {
-                fluid(maxWidth:1200){
-                    ...GatsbyImageSharpFluid
-                }
-            }
-        }
-    }
-`
