@@ -16,10 +16,10 @@ const IndexPage = (props) => (
         <h1 id="siteTitle">Piece of Cake</h1>
     
         <MainCarousel />
-        <CakesCarousel />
+        <CakesCarousel /> */}
 
-        {/* <MissionStatement/> */}
-        <ContactUs />
+        <MissionStatement/>
+        {/* {/* <ContactUs /> */}
     </Layout>
 )
 
