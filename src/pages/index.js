@@ -1,25 +1,19 @@
 import React from "react"
 import Layout from "../components/layout"
-import styles from "../styles/index.scss"
-import Jumbotron from "../components/jumboTron"
-import MissionStatement from "../components/missionStatement"
 import ContactUs from "../components/contactUs"
 import CakesCarousel from "../components/cakesCarousel"
+import MyJumbotron  from "../components/jumboTron"
+import styles from "../styles/index.scss"
 
-
-
-
-const IndexPage = (props) => (
-
+const IndexPage = () => (
+<div>
 
     <Layout>
-    
-        <Jumbotron />
+        <MyJumbotron/>
         <CakesCarousel />
-
-        {/* <MissionStatement/> */}
         <ContactUs />
     </Layout>
+    </div>
 )
 
 export default IndexPage

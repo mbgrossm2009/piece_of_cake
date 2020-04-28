@@ -1,13 +1,13 @@
 import React from "react"
 import { Navbar, Nav } from "react-bootstrap"
 import { Link } from 'gatsby'
+import styles from "../styles/header.scss"
 
 
 const Header = () => (
-  <div>
+  <div className="header">
   
   <Navbar bg="" expand="lg">
-    <Navbar.Brand href="#home">Piece of Cake </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">

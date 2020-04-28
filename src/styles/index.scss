@@ -4,6 +4,12 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+    // background: url("../images/background.jpg") no-repeat center; 
+
+  
+    background-size: contain;
+
+    
 }
 
 #siteTitle{
@@ -11,3 +17,7 @@ html,body
     text-align: center;
 }
 
+
+
+
+// <a href="https://pngtree.com/free-backgrounds">free background photos from pngtree.com</a>
