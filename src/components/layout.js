@@ -1,10 +1,11 @@
 import React from "react"
-import Header from "../components/header"
+import MyHeader from "../components/header"
+
 
 const Layout = (props) => {
     return (
         <div>
-            <Header/>
+            <MyHeader/>
             {props.children}
             {/* <Footer/> */}
         </div>
