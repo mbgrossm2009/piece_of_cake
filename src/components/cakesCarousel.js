@@ -15,10 +15,42 @@ import test from "../images/square.png"
 
 const cakesCarousel = () => (
     <div className="middle row">
-        <div className="col-lg-6">
-            <h3>Cakes</h3>
+      
+            <h3>Feautured Items</h3>
+            <div className="images col-lg-12">
+            {/* <Carousel>
+                <Carousel.Item>
+              
+                        <img className="cakeCarousel img-fluid" src={four} />
+                        <img className="cakeCarousel img-fluid" src={five} />
+                        <img className="cakeCarousel img-fluid" src={six} />
+                        <img className="cakeCarousel img-fluid" src={five} />
+                
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img className="cakeCarousel img-fluid col-xs-12 col-sm-6 col-md-4 col-lg-3" src={four} />
+                    <img className="cakeCarousel img-fluid col-xs-12 col-sm-6 col-md-4 col-lg-3" src={five} />
+                    <img className="cakeCarousel img-fluid ccol-xs-12 col-sm-6 col-md-4 col-lg-3" src={six} />
+                    <img className="cakeCarousel img-fluid col-xs-12 col-sm-6 col-md-4 col-lg-3" src={five} />
+                </Carousel.Item>
+        
+            </Carousel> */}
+        
+
+            {/* <h3>Cupcakes</h3>
+            <Carousel>
+
+                <Carousel.Item>
+                    <img className="cakeCarousel img-fluid col-lg-3 col-md-3 col-sm-3" src={four} />
+                    <img className="cakeCarousel img-fluid col-lg-3 col-md-3 col-sm-3" src={five} />                    <img className="cakeCarousel img-fluid col-lg-3 col-md-3 col-sm-3" src={six} />
+                    <img className="cakeCarousel img-fluid col-lg-3 col-md-3 col-sm-3" src={six} />
+                    <img className="cakeCarousel img-fluid col-lg-3 col-md-3 col-sm-3" src={six} />
+                </Carousel.Item>
+            </Carousel> */}
+            {/* <h3>Family Favorites</h3> */}
 
             <Carousel>
+
                 <Carousel.Item>
                     <img className="cakeCarousel img-fluid col-lg-3 col-md-3 col-sm-3" src={four} />
                 </Carousel.Item>
@@ -28,41 +60,13 @@ const cakesCarousel = () => (
                 <Carousel.Item>
                     <img className="cakeCarousel img-fluid col-lg-3 col-md-3 col-sm-3" src={six} />
                 </Carousel.Item>
-            </Carousel>
-
-            <h3>Cupcakes</h3>
-            <Carousel>
-
-                <Carousel.Item>
-                    <img className="cakeCarousel img-fluid col-lg-3 col-md-3 col-sm-3" src={four} />
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img className="cakeCarousel img-fluid col-lg-3 col-md-3 col-sm-3" src={five} />
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img className="cakeCarousel img-fluid col-lg-3 col-md-3 col-sm-3" src={six} />
-                </Carousel.Item>
-            </Carousel>
-            <h3>Family Favorites</h3>
-
-            <Carousel>
-
-                <Carousel.Item>
-                    <img className="cakeCarousel img-fluid col-lg-3 col-md-3 col-sm-3" src={four} />
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img className="cakeCarousel img-fluid col-lg-3 col-md-3 col-sm-3" src={five} />
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img className="cakeCarousel img-fluid col-lg-3 col-md-3 col-sm-3" src={six} />
-                </Carousel.Item>
-            </Carousel>
+            </Carousel> 
 
         </div>
-        <div className="col-lg-6">
+        {/* <div className="col-lg-6">
             <img className="img-fluid frontPagePicture" src={test} />
 
-        </div>
+        </div> */}
     </div>
 
 )

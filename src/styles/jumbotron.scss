@@ -13,6 +13,8 @@
 .container-fluid {
     position: relative;
     display: inline-block;
+    margin-top: 40px;
+    margin-right: 60px;
   }
 
   .container-fluid .text{
@@ -26,3 +28,4 @@
     width: 60%; /* Set the width of the positioned div */
     color: white;
 }
+

@@ -33,6 +33,7 @@ const MyHeader = () => {
         <a class="navbar-brand" href="#">
 
         <Img fixed={data.image.childImageSharp.fixed} /></a>
+        <h1>Piece of Cake</h1>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>

@@ -26,9 +26,9 @@ const MyJumbotron = () => {
     `)
 
      return (
-         <div className= "container-fluid"> 
-         <h1 className="text">Isn't that a Piece of Cake
-          <h4>From cupcakes to cookies to cakes to anything you want</h4> </h1>
+         <div className= "container-fluid image"> 
+         <h4 className="text col-lg-6">Isn't that a Piece of Cake
+          From cupcakes to cookies to cakes to anything you want</h4>
          <Img fluid={data.image.childImageSharp.fluid}  />
          </div>
          )
