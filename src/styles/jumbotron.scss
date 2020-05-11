@@ -29,3 +29,20 @@
     color: white;
 }
 
+@media screen and (max-width:480px){
+ 
+    .container-fluid .text{
+
+      position: absolute;
+      z-index: 999;
+      margin: 0 auto;
+   
+      top: 20%; /* Adjust this value to move the positioned div up and down */
+      text-align: center;
+      width: 60%; /* Set the width of the positioned div */
+      color: white;
+      font-size: 20px;
+  }
+  }
+
+
